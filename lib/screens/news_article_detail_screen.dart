@@ -16,7 +16,7 @@ class NewsArticleDetailScreen extends StatelessWidget {
         title: Row(
           children: <Widget>[
             CircleAvatar(
-              backgroundImage: AssetImage('assets/images/profile.jpeg'),
+              backgroundImage: AssetImage('assets/images/profile.png'),
             ),
             SizedBox(
               width: 5,
@@ -58,11 +58,11 @@ class NewsArticleDetailScreen extends StatelessWidget {
                   children: <Widget>[
                     Divider(
                       height: 80,
-                      color: Color(0xffFF8A30),
+                      color: Colors.green,
                       thickness: 20,
                     ),
                     Text(
-                      ' Headline',
+                      ' Berita Utama',
                       style: TextStyle(
                         fontSize: 14,
                         color: Colors.white,

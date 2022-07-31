@@ -72,13 +72,13 @@ class _NewsScreenState extends State<NewsScreen> {
             Padding(
               padding: const EdgeInsets.only(left: 30),
               child: Text(
-                'News',
+                'Portal Berita',
                 style: TextStyle(fontSize: 50),
               ),
             ),
             Divider(
               height: 40,
-              color: Color(0xffFF8A30),
+              color: Colors.green,
               thickness: 8,
               indent: 30,
               endIndent: 20,
@@ -86,7 +86,7 @@ class _NewsScreenState extends State<NewsScreen> {
             Padding(
               padding: const EdgeInsets.only(left: 30, top: 15, bottom: 15),
               child: Text(
-                'Headline',
+                'Berita Utama',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 20,
